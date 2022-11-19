@@ -2,9 +2,9 @@ from time import time
 
 import numpy as np
 
-from util.decisiontrees.baggingtree import BaggingTree
-from util.decisiontrees.decisiontree import DecisionTree
-from util.decisiontrees.random_subspace_method import RandomSubspaceMethod
+from learningtrees.baggingtree import BaggingTree
+from learningtrees.decisiontree import DecisionTree
+from learningtrees.random_subspace_method import RandomSubspaceMethod
 
 
 class RandomForest(BaggingTree):

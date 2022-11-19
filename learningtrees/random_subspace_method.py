@@ -1,6 +1,6 @@
 import numpy as np
 
-from util.decisiontrees.bootstrap import BootstrapData
+from learningtrees.bootstrap import BootstrapData
 
 
 class RandomSubspaceMethod:
