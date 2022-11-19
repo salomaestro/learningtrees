@@ -3,7 +3,7 @@ from time import time
 import matplotlib.pyplot as plt
 import numpy as np
 
-from util.decisiontree import DecisionTree
+from learningtrees.decisiontree import DecisionTree
 
 
 class AdaBoost:

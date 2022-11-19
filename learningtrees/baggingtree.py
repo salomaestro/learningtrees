@@ -2,8 +2,8 @@ from time import time
 
 import numpy as np
 
-from util.decisiontrees.bootstrap import BootstrapData
-from util.decisiontrees.decisiontree import DecisionTree
+from learningtrees.bootstrap import BootstrapData
+from learningtrees.decisiontree import DecisionTree
 
 
 class BaggingTree:
